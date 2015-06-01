@@ -1,0 +1,14 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="adapter" type="com.thelittlenaruto.databindingexample.adapter.RecyclerAdapter"/>
+    </data>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        bind:adapter="@{adapter}">
+    </android.support.v7.widget.RecyclerView>
+
+
+</layout>
